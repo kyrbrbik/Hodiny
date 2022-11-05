@@ -8,6 +8,7 @@ Hodiny v terminalu
 ## Instalace
 
 `chmod +x install_$ditribuce.sh`
+
 `./install_$distribuce.sh`
 
 Udelej script executable

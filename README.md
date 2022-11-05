@@ -7,8 +7,11 @@ Hodiny v terminalu
 
 ## Instalace
 
+`chmod +x install_$ditribuce.sh
 `./install_$distribuce.sh`
 
-Zapnout hodiny pomocí
+Udelej script executable
+`chmod +x hodiny.sh
 
+Zapnout hodiny pomocí
 `./hodiny.sh`

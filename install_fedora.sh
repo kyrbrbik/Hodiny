@@ -15,7 +15,7 @@ fi
 
 figlet=$(dnf list installed figlet | awk 'NR==2{print $1}')
 
-if [[ $figlet != "cowsay.noarch" ]]
+if [[ $figlet != "figlet.noarch" ]]
 then
         echo "installing figlet"
         sudo dnf install figlet -y

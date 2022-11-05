@@ -23,6 +23,13 @@ fi
 
 #Download font
 
+fonts=$(ls -la | grep .fonts | awk '{print $9}')
+
+if [[ $fonts != ".fonts" ]]
+then
+	mkdir ~/.fonts
+fi
+
 cd ~/.fonts
 wget ftp://ftp.figlet.org/pub/figlet/fonts/contributed.tar.gz
 tar -xf contributed.tar.gz

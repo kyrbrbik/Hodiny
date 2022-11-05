@@ -2,6 +2,7 @@
 Hodiny v terminalu
 
 Dependencies: 
+              
               figlet
 
               cowsay
